@@ -1,4 +1,7 @@
 # Code
+## Data Download
+- Download from https://www.kaggle.com/datasets/ahsh37/forex-news-labeled
+- ![](3.png)
 ## Description
 - The data query process begins by importing a dataset into Python using Pandas, reading a CSV file, and transforming it into a JSON file. The code initializes an empty list for storing data and iterates through each dataset row, creating a structured output from designated columns. This structured data is organized into a dictionary and added to the list. Subsequently, the list, containing the structured data, is written into a JSON file using the json.dump method. This methodology is not restricted to Python; it highlights the universal steps of data manipulation—read, process, and export—adaptable to other languages like Java and Go by adjusting syntax while maintaining the core process of data handling.
 ## pseudo-code
